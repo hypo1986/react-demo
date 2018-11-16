@@ -1,0 +1,48 @@
+.this{
+	.content{
+		max-width: 325px;
+		height: auto;
+		background: #fff;
+		margin: 0 auto;
+		position: relative;
+		margin-top: 16px;
+		padding: 12px 20px;
+		display: inline-block;
+		font-size: 16px;
+		color: #333333;
+		line-height: 28px;
+	}
+	.content-left {
+		margin-left: 25px;
+		.icon {
+			position: absolute;
+			left: -10px;
+			top: 0;
+			border-color: #fff #fff #F0F0F0 #F0F0F0;
+			width:0;
+			height:0;
+			border-width: 5px;
+			border-style:solid;
+		}
+	}
+	.content-right {
+		float: right;
+		margin-right: 25px;
+		display: inline-block;
+		&::after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.icon {
+			position: absolute;
+			right: -10px;
+			top: 0;
+			border-color: #fff #F0F0F0 #F0F0F0 #fff;;
+			width:0;
+			height:0;
+			border-width: 5px;
+			border-style:solid;
+		}
+	}
+}

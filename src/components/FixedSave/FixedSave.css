@@ -1,0 +1,37 @@
+/* 底部固定 */
+.fixed {
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.fixed .save {
+  width: 1.49rem;
+  background: #fff;
+}
+.fixed .save img {
+  width: .37rem;
+  height: .37rem;
+  display: block;
+  margin: .21rem auto;
+}
+.fixed .save img + span {
+  font-size: .32rem;
+  color: #666;
+}
+.fixed .customized, .fixed .consultation {
+  flex: 1;
+  background: #FF9F48;
+  font-size: .48rem;
+  color: #fff;
+  padding: .43rem 0;
+}
+.fixed .customized {
+  border-right: 1px solid #E5E5E5;
+}
+.fixed .consultation {
+}

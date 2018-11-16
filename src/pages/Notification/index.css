@@ -1,0 +1,67 @@
+body, ul, li, p, div, em, span {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.notification {
+  padding: .53rem;
+  background: #fff;
+}
+.notification > h1 {
+  font-size: .43rem;
+  color: #333;
+  line-height: .67rem;
+}
+.notification > p:first-of-type {
+  font-size: .37rem;
+  color: #333;
+}
+.notification > ul {
+  padding-top: .53rem;
+}
+.notification > ul > li {
+  padding: .43rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.notification > ul > li:last-of-type {
+  border-bottom: none;
+}
+.notification > ul > li > p:first-of-type {
+  font-size: .37rem;
+  color: #333;
+  line-height: .67rem;
+}
+.notification > ul > li > p:not(:first-of-type) {
+  font-size: .37rem;
+  color: #666;
+  line-height: .67rem;
+}
+.notification > p:last-of-type {
+  margin: 0 -.53rem;
+  padding: .32rem .53rem;
+  font-size: .32rem;
+  color: #999;
+  line-height: .53rem;
+  background: #F6F6F6;
+  margin-bottom: 1.33rem;
+}
+.notification > a {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: .48rem;
+  color: #fff;
+  padding: .4rem 0;
+  background: #FF9C42;
+  text-align: center;
+}

@@ -1,0 +1,75 @@
+.this {
+  label{
+    display: block;
+    padding: 0 12px;
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+    width: 285px;
+    margin-top: 20px;
+  }
+  .switch-title {
+    line-height: 60px;
+    font-size: 16px;
+    color: #666666;
+    padding-right: 20px;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+  }
+  .fengui-switch {
+    list-style: none;
+    background: #EBEBEB;
+    border-radius: 100px;
+    display:flex;
+    -moz-box-flex:6;
+    -webkit-box-flex:6;
+    box-flex:6;
+    >div {
+      float: left;
+      color: #000;
+      line-height: 50px;
+      transition: 0.2s all linear;
+      cursor: pointer;
+      position: relative;
+      margin: 4px;
+      flex:1;
+      span {
+        position: relative;
+        color: #666666;
+        font-size: 16px;
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        -webkit-transition: color 0.3s, color 0.3s;
+      }
+    }
+    >div::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 0;
+      height: 100%;
+      background: #FF7B02;
+      transition: 0.2s all linear;
+    }
+    .active{
+      span{
+        color: #fff;
+        -webkit-transition: color 0.3s, color 0.3s;
+      }
+    }
+    .active ~ div::before {
+      left: 0;
+    }
+    .active::before {
+      width: 100%;
+      left: 0;
+      top: 0;
+      background: #FF7B02;
+      border-radius: 100px;
+    }
+  }
+}

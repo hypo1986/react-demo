@@ -1,0 +1,11 @@
+---
+- hosts: "{{host}}"
+  tasks:
+
+  - name: pull docker images
+    command:  docker pull "{{image}}"
+    notify:
+    - docker deploy
+  handlers:
+  - name: docker deploy
+    command: docker run -dit --name  mobile-insurance"{{tg}}" "{{image}}" bash 

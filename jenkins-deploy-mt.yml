@@ -1,0 +1,8 @@
+---
+- hosts: "{{host}}"
+  tasks:
+
+  - name: copy tar file
+    unarchive:
+      src: dist/mobile-insurance.war
+      dest: "{{dest}}"

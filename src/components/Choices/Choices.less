@@ -1,0 +1,85 @@
+.this {
+  .fengui-choices-list{
+    >div{
+      color: #666666;
+      line-height: 24px;
+      font-size: 12px;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      position: relative;
+      overflow: hidden;
+      li{
+        float: left;
+        line-height: 50px;
+        border-radius: 100px;
+        background: #EBEBEB;
+        color: #666666;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .active {
+        background: #FF7B02;
+        color: #fff;
+      }
+    }
+    .three-column{
+      left: 16px;
+      li{
+        width: 125px;
+        height:50px;
+        margin-right: 14px;
+      }
+    }
+    .add-child{
+       width: 258px;
+       background: #EBEBEB;
+       border-radius: 100px;
+       margin: 0 auto;
+       font-size: 16px;
+       color: #666666;
+       height: 50px;
+       line-height: 50px;
+       text-align: center;
+       margin-top: 20px;
+       -webkit-transition: color 0.3s, background-color 0.3s;
+    }
+  }
+  .add-child-fix{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    .child-main{
+      width: 90%;border-radius: 1rem;background-color: #fff;text-align: center;padding-top: 10px;
+      position: absolute;left: 0;top:50%;margin-top: -2.5rem;height: 5rem;margin-left: 5%;
+      ul{
+        li{
+          display: inline-block;vertical-align: middle;
+          width: 125px;
+          height: 50px;
+          margin:20px 8px;
+          line-height: 50px;
+          border-radius: 100px;
+          background: #EBEBEB;
+          color: #666666;
+          font-size: 16px;
+          text-align: center;
+          &.on{
+            background: #FF7B02;
+            color: #fff;
+          }
+        }
+      }
+      .confirmAdd{
+        margin-top: 10px;
+      }
+    }
+  }
+}

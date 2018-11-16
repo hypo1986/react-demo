@@ -1,0 +1,394 @@
+html, body, div, ul, li, span, em, h1, h2, h3, p {
+  margin:0;
+  padding: 0;
+  font-style: normal;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.detailsPage{
+
+}
+.detailsPage .title {
+  padding: .64rem .53rem;
+  background: #FF9F48;
+}
+.detailsPage .title > h1 {
+  font-size: .64rem;
+  color: #fff;
+}
+.detailsPage .title > p {
+  font-size: .32rem;
+  color: #fff;
+  font-weight: bold;
+  padding: .13rem 0 0;
+}
+.detailsPage .title > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -.11rem;
+  padding: .45rem 0 .11rem;
+}
+.detailsPage .title > ul li {
+  font-size: .32rem;
+  margin: 0 .11rem;
+  color: #fff;
+  margin: .11rem;
+  padding: .05rem .32rem;
+  border: 1px solid #fff;
+  border-radius: 1.47rem;
+}
+.detailsPage .details {
+  display: flex;
+  flex-direction: row;
+  padding: 0 .4rem 0 0;
+  background: #fff;
+}
+.detailsPage .details > li {
+  width: 23%;
+  text-align: center;
+  padding: .75rem 0 .8rem;
+}
+.detailsPage .details > li:last-of-type {
+  width: 33%;
+}
+.detailsPage .details > li em {
+  display: block;
+  font-size: .43rem;
+  color: #333;
+  padding-bottom: .16rem;
+}
+.detailsPage .details > li em span {
+  font-size: .48rem;
+  font-weight: bold;
+  color: #FF9F48;
+  white-space: normal;
+}
+.detailsPage .details > li span {
+  font-size: .32rem;
+  color: #666;
+}
+.detailsPage .details > li:last-of-type em {
+  font-size: .37rem;
+  color: #FF9F48;
+  font-weight: bold;
+}
+.detailsPage .responsibility {
+  padding: 0 .53rem;
+  margin-top: .27rem;
+  background: #fff;
+}
+.detailsPage .responsibility > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .53rem 0 .32rem;
+  border-bottom: 1px solid #ddd;
+}
+.detailsPage .responsibility > div > h1 {
+  font-size: .43rem;
+  color: #2B2B2B;
+  font-weight: bold;
+}
+.detailsPage .responsibility > div > a {
+  font-size: .37rem;
+  color: #4A90E2;
+}
+.detailsPage .responsibility > ul {
+  padding: .48rem 0 .8rem;
+}
+.detailsPage .responsibility > ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: .21rem 0;
+}
+.detailsPage .responsibility > ul li h3 {
+  font-size: .37rem;
+  color: #666;
+  max-width: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detailsPage .responsibility > ul li p {
+  font-size: .37rem;
+  color: #2B2B2B;
+}
+.detailsPage .recommend {
+  padding: 0 .53rem .53rem;
+  background: #fff;
+  margin-top: .27rem;
+}
+.detailsPage .recommend > h1 {
+  font-size: .43rem;
+  font-weight: bold;
+  color: #2B2B2B;
+  padding: .53rem 0 .64rem;
+}
+.detailsPage .recommend > ul {
+  background: #FFEBC2;
+  border-radius: .61rem;
+  padding: 1.04rem;
+}
+.detailsPage .recommend > ul > li {
+  font-size: .37rem;
+  color: #333;
+  line-height: .67rem;
+}
+.detailsPage .recommend > a {
+  display: block;
+  width: 6.35rem;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  text-align: center;
+  font-size: .37rem;
+  font-weight: bold;
+  color: #FF9F48;
+  border: 1px solid #FF9F48;
+  border-radius: 2.35rem;
+  margin: .43rem auto;
+}
+.detailsPage .unscramble {
+  background: #fff;
+  margin-top: .27rem;
+  padding: 0 .53rem .8rem;
+}
+.detailsPage .unscramble > h1 {
+  font-size: .43rem;
+  color: #2B2B2B;
+  padding: .53rem 0 .27rem;
+  border-bottom: 1px solid #ddd;
+}
+.detailsPage .unscramble > p {
+  display: flex;
+  padding: .67rem 0 .59rem;
+  align-items: center;
+  justify-content: center;
+}
+.detailsPage .unscramble > p span {
+  flex: 1;
+  font-size: .37rem;
+  font-weight: bold;
+  color: #333;
+  padding: .16rem 0;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #F8F8F9;
+}
+.detailsPage .unscramble > p span:first-of-type {
+  border-right: none;
+}
+.detailsPage .unscramble > ul {
+
+}
+.detailsPage .unscramble > ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.detailsPage .unscramble > ul > li p {
+  flex: 1;
+  padding: .32rem .13rem;
+  font-size: .37rem;
+  color: #666;
+  line-height: .53rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+}
+.detailsPage .unscramble > ul > li p img {
+  width: .45rem;
+  height: .45rem;
+  margin-right: .13rem;
+  border-radius: 50%;
+}
+.detailsPage .unscramble > ul > li p span {
+
+}
+.detailsPage .unscramble > ul > li p:first-of-type {
+  border-right: 1px solid #ddd;
+}
+.detailsPage .unscramble > ul > li:last-of-type p {
+  border-bottom: none;
+}
+.detailsPage .service {
+  background: #fff;
+  margin-top: .27rem;
+  padding: 0 .53rem;
+}
+.detailsPage .service > h1, .detailsPage .comproblem h1, .detailsPage .file h1, .detailsPage .inform h1 {
+  font-size: .43rem;
+  font-weight: bold;
+  color: #2B2B2B;
+  padding:.53rem 0 .24rem;
+  border-bottom: 1px solid #ddd;
+}
+.detailsPage .service > ul {
+  padding: .48rem 0 .59rem;
+}
+.detailsPage .service > ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .27rem 0;
+}
+.detailsPage .service > ul li img {
+  width: .45rem;
+  height: .45rem;
+  border-radius: 50%;
+}
+.detailsPage .service > ul li span {
+  flex: 1;
+  font-size: .37rem;
+  color: #333;
+  padding-left: .21rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.detailsPage .comproblem {
+  margin-top: .27rem;
+  padding:0 .53rem;
+  background: #fff;
+}
+.detailsPage .comproblem ul {
+
+}
+.detailsPage .comproblem ul li {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  flex-direction: column;
+  position: relative;
+}
+.detailsPage .comproblem ul li p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.detailsPage .comproblem ul li p:first-of-type {
+  padding: .27rem 0 0 0;
+  margin-bottom: .27rem;
+  flex: 1;
+  position: relative;
+}
+.detailsPage .comproblem ul li p:first-of-type::before {
+  content: '';
+  position: absolute;
+  width: .21rem;
+  height: .21rem;
+  border: 1px solid #999;
+  border-right: none;
+  border-bottom: none;
+  top: 50%;
+  transform: translateY(50%) rotate(225deg);
+  transform-origin:25% 25%;
+  transition: all 0.5s linear;
+  right: .19rem;
+}
+.detailsPage .comproblem ul li p img {
+  width: .45rem;
+  height: .45rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.detailsPage .comproblem ul li p span {
+  padding-left: .21rem;
+  font-size: .37rem;
+  color: #333;
+}
+.detailsPage .comproblem ul li p:last-of-type span {
+  color: #666;
+  line-height: .53rem;
+}
+.detailsPage .comproblem ul li p:last-of-type {
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  padding-bottom: 0;
+  transition: all 0.5s linear;
+}
+.detailsPage .comproblem ul li.active p:first-of-type::before {
+  transform: translateY(50%) rotate(45deg);
+}
+.detailsPage .comproblem ul li.active p:last-of-type {
+  max-height: 2.67rem;
+  overflow: scroll;
+  padding-bottom: .27rem;
+}
+.detailsPage .comproblem > div {
+  text-align: center;
+  padding: .32rem 0 .53rem;
+}
+.detailsPage .comproblem > div > a {
+  display: inline-block;
+  font-size: .37rem;
+  color: #4A90E2;
+}
+.detailsPage .file, .detailsPage .inform {
+  background: #fff;
+  margin-top: .27rem;
+  padding: 0 .53rem;
+}
+.detailsPage .file > div {
+  padding: .43rem 0 .53rem;
+}
+.detailsPage .file > div a {
+  font-size: .37rem;
+  color: #4A90E2;
+  display: inline-block;
+  margin: 0 .11rem;
+}
+.detailsPage .inform > p {
+  font-size: .37rem;
+  color: #4A4A4A;
+  line-height: .67rem;
+}
+.detailsPage .inform {
+  padding-bottom: .53rem;
+}
+.detailsPage .inform > a {
+  font-size: .37rem;
+  color: #4A90E2;
+}
+.detailsPage .consultation {
+  margin-top: .27rem;
+  padding: .53rem .53rem 0;
+  background: #fff;
+}
+.detailsPage .consultation > div {
+  padding: .24rem .48rem;
+  font-size: .32rem;
+  color: #666;
+  line-height: .53rem;
+  box-shadow: .05rem .05rem .64rem 0 #E7DDD2;
+  border-radius: .11rem;
+  position: relative;
+  margin-bottom: .8rem;
+}
+.detailsPage .consultation > div::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: .27rem solid #fff;
+  border-right: .53rem solid transparent;
+  border-bottom: .27rem solid transparent;
+  bottom: -.53rem;
+  left: 1.07rem;
+}
+.detailsPage .consultation > a {
+  display: block;
+  background: #FF9C42;
+  font-size: .48rem;
+  color: #fff;
+  padding: .4rem 0;
+  text-align: center;
+  margin: .27rem -.53rem 0;
+}
